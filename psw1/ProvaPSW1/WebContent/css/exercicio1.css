@@ -1,0 +1,51 @@
+/* 
+    Document   : exercicio1
+    Created on : Mar 16, 2013, 9:25:34 AM
+    Author     : douglas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* a) O cabeçalho "Gêneros Musicais" deve ter tamanho 2 e ficar centralizado, 
+      Mesmo sabendo que a tag center nao e recomendada, preferi utiliza-la
+      pra poupar tempo, pois preferi evitar utilizar margin-left: auto e
+      margin-right: auto porque fiquei com receio de nao funcionar no 
+      navegador utilizado para correcao da prova.
+*/
+h1 {
+    height: 2px;
+}
+
+/* b) Apos o cabecalho incluir uma linha horizontal tamanho 1 e cor azul */
+hr { 
+    background-color: blue;
+    height: 1px;
+}
+
+/* d.1) cor de fundo para os componentes igual a #dddddd */
+
+input { 
+    background-color: #dddddd;
+}
+
+/* 
+    d.2) Eu acho que aqui deveria ser a tag td (no lugar de input como esta na
+    prova), por isso estou fazendo com ela, senao o leiaute nao bate, mas deixei
+    com input comentado.
+*/
+td {
+    border: 3px;
+    font-family: "Arial";
+    font-size: 14px;
+}
+
+/*
+input {
+    border: 3px;
+    font-family: "Arial";
+    font-size: 14px;
+}*/
+
+
+
+
